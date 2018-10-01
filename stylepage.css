@@ -1,0 +1,27 @@
+body{
+	/*Change background for tests*/
+	background-color: grey;
+	font-family: 'Lato', sans-serif;
+}
+/*Menu Icon*/
+#menu{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#logo{
+	width: 151px;
+}
+#burger{
+	background-color: #8cb110 !important;
+}
+.section{
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.section:hover{
+	color: #8cb110 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	color: white;
+}
