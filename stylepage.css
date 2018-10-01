@@ -1,7 +1,44 @@
 body{
-	/*Change background for tests*/
-	background-color: grey;
 	font-family: 'Lato', sans-serif;
+	color: #5a5a5a;
+}
+nav{
+	background-color: black;
+}
+.line{
+	background-color: #8cb110;
+	margin-left: auto;
+	margin-right: auto;
+	height: 5px;
+	width : 50px;
+}
+.italic{
+	font-style: italic;
+}
+
+.description{
+	font-size: 80%;
+}
+/*For the menu named Actu*/
+#actu{
+	padding: 100px 0;
+}
+
+.fa{
+font-size: 40px;
+padding: 25px;
+border: 4px solid #8cb110;
+border-radius: 50px;
+height: 100px;
+width: 100px;
+}
+
+.fa:hover{
+	background-color: #8cb110;
+}
+
+.center{
+	text-align: center;
 }
 /*Menu Icon*/
 #menu{
