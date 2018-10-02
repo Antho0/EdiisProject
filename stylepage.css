@@ -1,0 +1,120 @@
+body{
+	font-family: 'Lato', sans-serif;
+	color: #5a5a5a;
+}
+nav{
+	background-color: black;
+}
+#global{
+	padding-top: 100px;
+}
+.background{
+	color:white;
+}
+/*For the menu named Cont*/
+.button{
+	float: right;
+	background-color:#8cb110;
+	color: white;
+}
+#cont{
+	background-image: url("images/Contact_Background.png")
+}
+.size{
+	width:100%;
+}
+.height{
+	height: 100px;
+}
+label{
+	margin-bottom: 2px;
+}
+/*Title of section*/
+.line{
+	background-color: #8cb110;
+	margin-left: auto;
+	margin-right: auto;
+	height: 4px;
+	width : 50px;
+}
+.italic{
+	font-style: italic;
+}
+
+.description{
+	font-size: 80%;
+}
+/*For the menu named Actu*/
+#actu{
+	padding: 100px 0;
+}
+
+.fa{
+font-size: 40px;
+padding: 25px;
+border: 4px solid #8cb110;
+border-radius: 50px;
+height: 100px;
+width: 100px;
+}
+
+.fa:hover{
+	background-color: #8cb110;
+}
+
+.center{
+	text-align: center;
+}
+/*Menu Icon*/
+#menu{
+	padding: 20px;
+	margin-bottom: 20px;
+}
+#logo{
+	width: 151px;
+}
+#burger{
+	background-color: #8cb110 !important;
+}
+.section{
+	font-size: 12px;
+	letter-spacing: 1px;
+	font-weight: 700;
+}
+.section:hover{
+	color: #8cb110 !important;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+	color: white;
+}
+/*sect*/
+.overlay {
+background-image: url("http://www.ediis-aid.fr/img/04.jpg");
+height: 400px;
+color: white;
+}
+/*carousel*/
+.contenu{
+  float: left;
+  text-align: center;
+  width: 20%;
+  font-style: 12px Arial;
+  height: 60px;
+}
+.carousel-indicators{
+  position: relative;
+  margin-top: 70px;
+}
+.carousel-indicators li{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 10px;
+      text-indent: 0;
+      cursor: pointer;
+      border: none;
+      border-radius: 10%;
+      background-color: white;
+      box-shadow: inset 1px 1px 1px 1px white;
+			list-style-type: square;
+}
