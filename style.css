@@ -1,0 +1,112 @@
+.titre {
+  box-sizing: border-box;
+color: rgb(255, 255, 255);
+font-family: "Lato", sans-serif;
+font-size: 14px;
+line-height: 20px;
+padding-bottom: 30px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 30px;
+text-align: center;
+text-rendering: optimizelegibility;
+}
+.line {
+  border-top-color: rgb(140, 177, 16);
+  border-top-style: solid;
+  border-top-width: 4px;
+  box-sizing: border-box;
+  color: rgb(255, 255, 255);
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  height: 10px;
+  line-height: 20px;
+  margin-bottom: 0px;
+  margin-left: 540px;
+  margin-right: 540px;
+  margin-top: 20px;
+  text-align: center;
+  text-rendering: optimizelegibility;
+  width: 60px;
+}
+.overlay {
+  background-image: url("http://www.ediis-aid.fr/img/04.jpg");
+height: 400px;
+color: white;
+}
+.item{
+  box-sizing: border-box;
+color: rgb(255, 255, 255);
+font-family: "Lato", sans-serif;
+font-size: 14px;
+line-height: 20px;
+margin-bottom: 35px;
+margin-left: 35px;
+margin-right: 35px;
+margin-top: 35px;
+padding-bottom: 0px;
+padding-left: 0px;
+padding-right: 0px;
+padding-top: 0px;
+text-align: center;
+text-rendering: optimizelegibility;
+}
+hr{
+  border-bottom-color: rgb(140, 177, 16);
+border-bottom-style: none;
+border-bottom-width: 0px;
+border-image-outset: 0;
+border-image-repeat: stretch stretch;
+border-image-slice: 100%;
+border-image-source: none;
+border-image-width: 1;
+border-left-color: rgb(140, 177, 16);
+border-left-style: none;
+border-left-width: 0px;
+border-right-color: rgb(140, 177, 16);
+border-right-style: none;
+border-right-width: 0px;
+border-top-color: rgba(94, 136, 69, 0.34);
+border-top-style: solid;
+border-top-width: 4px;
+box-sizing: content-box;
+clear: both;
+color: rgb(128, 128, 128);
+float: left;
+font-family: "Lato", sans-serif;
+font-size: 14px;
+height: 0px;
+left: 10.2px;
+line-height: 20px;
+margin-bottom: 20px;
+margin-top: 10px;
+position: relative;
+text-align: center;
+text-rendering: optimizelegibility;
+width: 40px;
+}
+.contenu{
+  float: left;
+  text-align: center;
+  width: 20%;
+  font-style: 12px Arial;
+  height: 60px;
+}
+.carousel-indicators{
+  position: relative;
+  margin-top: 70px;
+}
+.carousel-indicators li{
+      display: inline-block;
+      width: 10px;
+      height: 10px;
+      margin: 10px;
+      text-indent: 0;
+      cursor: pointer;
+      border: none;
+      border-radius: 10%;
+      background-color: white;
+      box-shadow: inset 1px 1px 1px 1px white;
+
+  list-style-type: square;
+}
