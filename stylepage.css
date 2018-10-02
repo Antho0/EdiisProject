@@ -5,6 +5,28 @@ body{
 nav{
 	background-color: black;
 }
+.background{
+	color:white;
+}
+/*For the menu named Cont*/
+.button{
+	float: right;
+	background-color:#8cb110;
+	color: white;
+}
+#cont{
+	background-image: url("images/Contact_Background.png")
+}
+.size{
+	width:100%;
+}
+.height{
+	height: 100px;
+}
+label{
+	margin-bottom: 2px;
+}
+/*Title of section*/
 .line{
 	background-color: #8cb110;
 	margin-left: auto;
