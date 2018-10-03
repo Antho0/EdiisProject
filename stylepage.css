@@ -2,12 +2,6 @@ body{
 	font-family: 'Lato', sans-serif;
 	color: #5a5a5a;
 }
-nav{
-	background-color: black;
-}
-#global{
-	padding-top: 100px;
-}
 .background{
 	color:white;
 }
@@ -101,6 +95,9 @@ color: white;
   font-style: 12px Arial;
   height: 120px;
 }
+.carousel-inner{
+  margin-top: 50px;
+}
 .carousel-indicators{
   position: relative;
   margin-top: 70px;
@@ -118,13 +115,13 @@ color: white;
       box-shadow: inset 1px 1px 1px 1px white;
 			list-style-type: square;
 }
-/*For the menu Accueil*/
+/*For the menu Home*/
 #home {
-  background-image: url("images/01.jpg");
+  background-image: url("images/01.jpg") ;
   text-align: center;
   background-repeat: no-repeat;
   background-attachment: fixed;
-  background-size: 100%;
+  background-size: 150%;
   background-position: center;
   height: 100vh;
   box-sizing: content-box;
@@ -160,12 +157,14 @@ width: 40px;
 }
 
 #homepagetext{
+padding-top: 100px;
 background: rgba(0,0,0,0.5);
 height:100vh;
 width: 100vw;
 text-align: center;
 display: table-cell;
 vertical-align: middle;
+background-size: 100%;
 }
 #lines{
   width: 60px;
